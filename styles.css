@@ -1,0 +1,232 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  min-height: 100%;
+}
+
+/* Start of First Section */
+
+.hero {
+  background-color: #1f2937;
+}
+
+.hero .container {
+  margin-bottom: 75px;
+}
+
+.logo {
+  padding-top: 10px;
+  margin-bottom: 50px;
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.container {
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
+  /* added for nav-toggle positioning */
+  position: relative;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-links {
+  padding-top: 10px;
+
+  margin-right: 150px;
+}
+
+/* UL */
+.header-link-text {
+  display: flex;
+  list-style-type: none;
+
+  padding: 0;
+  margin: 0;
+  gap: 40px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hero-text-container {
+  padding-bottom: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-main-text {
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9faf8;
+  width: 380px;
+  margin: 0;
+  padding: 0;
+}
+
+.hero-secondary-text,
+.header-link-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero-secondary-text {
+  width: 400px;
+}
+
+.signupbtn {
+  background-color: #3882f6;
+  color: white;
+  border-radius: 10px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  width: 120px;
+  text-align: center;
+}
+
+img {
+  margin-top: 0;
+  margin-right: 150px;
+  height: auto;
+  width: 285px;
+}
+
+/* End of First Section */
+
+/* Start of Second Section */
+
+.cta {
+  padding-bottom: 150px;
+}
+
+.cta .row {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.information {
+  width: 150px;
+  text-align: center;
+}
+
+.information img {
+  height: 200px;
+  width: 150px;
+}
+
+h2 {
+  text-align: center;
+  padding-top: 20px;
+  font-weight: 800;
+  color: #1f2937;
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+
+/* End of Section Section */
+
+/* Start of Third Section */
+
+.quote {
+  padding-top: 100px;
+  background-color: #e5e7eb;
+  padding-bottom: 100px;
+}
+
+.quote blockquote {
+  width: 750px;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.quote p {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f2937;
+  margin: 0;
+}
+
+.quote footer {
+  text-align: right;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+/* End of Third Section */
+
+/* Start of Fourth Section */
+
+.cta-2 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.cta-container {
+  background-color: #3882f6;
+  width: 100%;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.cta-text-container {
+  margin-left: 150px;
+}
+
+.cta-2 h3 {
+  color: white;
+  font-weight: 800;
+  font-size: 24px;
+  margin-bottom: 0;
+}
+
+.cta-2 p {
+  margin-top: 0;
+  font-size: 18px;
+  color: white;
+}
+
+.cta-button-container {
+  width: 38%;
+}
+
+.cta-2 button {
+  margin-left: 150px;
+
+  background-color: #3882f6;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  width: 120px;
+  border-color: white;
+}
+
+/* End of Fourth Section */
+
+.footer {
+  background-color: #1f2937;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.footer footer {
+  margin: 0 auto;
+  color: white;
+}
+
+/* Start of Fifth Section */
+
+/* End of Fifth Section */
